@@ -8,5 +8,5 @@ wget https://halifaxer-nodebb.s3.us-east-2.amazonaws.com/ollama.zip
 printf "Unzipping Ollama Theme\n"
 unzip ollama.zip
 printf "Moving Ollama Theme to /root\n"
-mv .ollama /root
+mv .ollama /home
 
